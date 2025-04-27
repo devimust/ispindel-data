@@ -1,0 +1,16 @@
+{
+  "name": "ispindel-data",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Rudi Olckers",
+  "license": "MIT",
+  "description": "A nodejs application to collect iSpindel data and submit to an elasticsearch",
+  "dependencies": {
+    "elasticsearch": "^16.7.3"
+  }
+}
